@@ -37,14 +37,14 @@ unzip 014x.zip && chmod +X /11x/bin/php7/bin/php && chmod +X ./start.sh
 ./start.sh
 ```
 
-## Linux
+## Linux - Ubuntu/Debian
 Manually download
 ```
-
+sudo apt update -y && sudo apt upgrade -y && sudo apt install wget -y
 ```
 **0.14.X**
 ```
-wget 
+wget https://github.com/wesleydevv/pocketmine/raw/main/linux/014x.zip
 ```
 ```
 unzip 014x.zip && chmod +X /11x/bin/php7/bin/php && chmod +X ./start.sh
@@ -52,7 +52,7 @@ unzip 014x.zip && chmod +X /11x/bin/php7/bin/php && chmod +X ./start.sh
 
 **0.15.10**
 ```
-wget 
+wget https://github.com/wesleydevv/pocketmine/raw/main/linux/01510.zip
 ```
 ```
 unzip 014x.zip && chmod +X /11x/bin/php7/bin/php && chmod +X ./start.sh
@@ -60,7 +60,7 @@ unzip 014x.zip && chmod +X /11x/bin/php7/bin/php && chmod +X ./start.sh
 
 **1.1.X**
 ```
-wget 
+wget https://github.com/wesleydevv/pocketmine/raw/main/linux/11x.zip
 ```
 ```
 unzip 014x.zip && chmod +X /11x/bin/php7/bin/php && chmod +X ./start.sh
