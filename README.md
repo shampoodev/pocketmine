@@ -47,7 +47,7 @@ sudo apt update -y && sudo apt upgrade -y && sudo apt install wget -y
 wget https://github.com/wesleydevv/pocketmine/raw/main/linux/014x.zip
 ```
 ```
-unzip 014x.zip && cd 014x && chmod +X ./bin/php7/bin/php && chmod +X ./start.sh
+unzip 014x.zip && cd 014x && sudo chmod +X ./bin/php7/bin/php && sudo chmod +X ./start.sh
 ```
 
 **0.15.10**
@@ -55,7 +55,7 @@ unzip 014x.zip && cd 014x && chmod +X ./bin/php7/bin/php && chmod +X ./start.sh
 wget https://github.com/wesleydevv/pocketmine/raw/main/linux/01510.zip
 ```
 ```
-unzip 01510.zip && cd 01510 && chmod +X ./bin/php7/bin/php && chmod +X ./start.sh
+unzip 01510.zip && cd 01510 && sudo chmod +X ./bin/php7/bin/php && sudo chmod +X ./start.sh
 ```
 
 **1.1.X**
@@ -63,7 +63,7 @@ unzip 01510.zip && cd 01510 && chmod +X ./bin/php7/bin/php && chmod +X ./start.s
 wget https://github.com/wesleydevv/pocketmine/raw/main/linux/11x.zip
 ```
 ```
-unzip 11x.zip && cd 11x && chmod +X ./bin/php7/bin/php && chmod +X ./start.sh
+unzip 11x.zip && cd 11x && sudo chmod +X ./bin/php7/bin/php && sudo chmod +X ./start.sh
 ```
 
 **To start the server just use the following command:**
