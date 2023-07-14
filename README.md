@@ -37,4 +37,36 @@ unzip 014x.zip && chmod +X /11x/bin/php7/bin/php && chmod +X ./start.sh
 ./start.sh
 ```
 
-# Título <h1>
+## Linux
+Manually download
+```
+
+```
+**0.14.X**
+```
+wget 
+```
+```
+unzip 014x.zip && chmod +X /11x/bin/php7/bin/php && chmod +X ./start.sh
+```
+
+**0.15.10**
+```
+wget 
+```
+```
+unzip 014x.zip && chmod +X /11x/bin/php7/bin/php && chmod +X ./start.sh
+```
+
+**1.1.X**
+```
+wget 
+```
+```
+unzip 014x.zip && chmod +X /11x/bin/php7/bin/php && chmod +X ./start.sh
+```
+
+**To start the server just use the following command:**
+```
+./start.sh
+```
