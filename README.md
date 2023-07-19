@@ -6,7 +6,7 @@ Available versions: 0.14.X, 0.15.10 and 1.1.X
 ## Termux
 Manually download
 ```
-pkg update -y && pkg upgrade -y && pkg install wget -y
+pkg update -y && pkg upgrade -y && pkg install wget -y && pkg install unzip -y
 ```
 **0.14.X**
 ```
@@ -40,7 +40,7 @@ unzip 11x.zip && cd 11x && chmod +x ./bin/php7/bin/php ./start.sh
 ## Linux - Ubuntu/Debian
 Manually download
 ```
-sudo apt update -y && sudo apt upgrade -y && sudo apt install wget -y
+sudo apt update -y && sudo apt upgrade -y && sudo apt install wget -y && sudo apt install unzip -y
 ```
 **0.14.X**
 ```
